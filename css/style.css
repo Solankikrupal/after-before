@@ -1,0 +1,45 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body,html{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.imgField{
+  width: 45vh;
+  height: 600px;
+
+  position: relative;
+  background-color: yellow;
+}
+.before{
+  width: 45vh;
+  height: 600px;
+  position: absolute;
+  top: 0px;
+  background-color: blue;
+
+}
+.before img{
+  width: 45vh;
+  height: 600px;
+}
+.after{
+  width: 45vh;
+  height: 600px;
+  position: absolute;
+  top: 0px;
+  background-color: red;
+}
+.before{
+  width: 24.5vh;
+  overflow: hidden;
+}
+.after img{
+  width: 45vh;
+  height: 600px;
+}
